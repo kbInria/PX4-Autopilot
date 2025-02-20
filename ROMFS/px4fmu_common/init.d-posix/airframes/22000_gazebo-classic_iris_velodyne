@@ -30,3 +30,23 @@ param set-default PWM_MAIN_FUNC1 101
 param set-default PWM_MAIN_FUNC2 102
 param set-default PWM_MAIN_FUNC3 103
 param set-default PWM_MAIN_FUNC4 104
+
+## ROLL, PITCH and YAW parameters obtained using QGControl autotune ##
+
+param set-default MC_PITCHRATE_P 0.168
+param set-default MC_PITCHRATE_I 0.227
+param set-default MC_PITCHRATE_D 0.003
+param set-default MC_PITCH_P 5.68
+
+param set-default MC_ROLLRATE_P 0.248
+param set-default MC_ROLLRATE_I 0.367
+param set-default MC_ROLLRATE_D 0.0067
+param set-default MC_ROLL_P 3.85
+
+param set-default MC_YAWRATE_P 0.17
+param set-default MC_YAWRATE_I 0.16
+param set-default MC_YAWRATE_D 0.00
+param set-default MC_YAW_P 5.76
+
+param set-default MPC_XY_P 0.60
+param set-default MPC_Z_P 1.85
